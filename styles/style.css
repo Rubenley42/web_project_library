@@ -312,11 +312,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
   max-width: 220px;
-  margin-right: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -340,11 +341,11 @@
   background-color: #1f1f1f;
   box-sizing: border-box;
   color: #fff;
-  display: flex;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  padding: 60px 80px 100px;
+  display: flex;
 }
 
 .footer__column_content_hours {
@@ -378,16 +379,16 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
-  margin: 0;
-  padding: 100px 0 60px 80px;
-  flex-wrap: wrap;
+  margin-top: 100px;
 }
